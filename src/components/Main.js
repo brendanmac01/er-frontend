@@ -7,7 +7,7 @@ import Show from '../pages/Show'
 const Main = (props) => {
     const [ people, setPeople ] = useState(null)
 
-    const URL = "https://er-backend.onrender.com"
+    const URL = "https://er-backend.onrender.com/people/"
 
     const getPeople = async () => {
         const response = await fetch(URL)
